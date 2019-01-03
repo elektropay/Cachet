@@ -1,0 +1,22 @@
+{
+  "name": "Status Server",
+  "description": "Elektropay Status server",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "stack": "heroku-16",
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
